@@ -1,4 +1,62 @@
-* {
-    margin: 0;
+body {
+    margin: 0 10% 0 10%;
+    background-color: orange;
+}
+.body {
+    background-color: grey;
+}
+.header {
+    height: 10vh;
+    background-color: grey;
 }
 
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+li:first-child:hover{
+    background-color: orange;
+}
+li:nth-child(2):hover{
+    background-color: orange;
+}
+li:nth-child(3):hover{
+    background-color: orange;
+}
+
+ul#list {
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+ul#list li {
+    display: inline;
+    list-style: none;
+    padding: 25px;
+}
+.container {
+    text-align: center;
+    background-color: grey;
+}
+
+#house {
+    max-width: 100%;
+    height: auto;
+}
+
+.h2 {
+    color: white;
+    padding-bottom: 20px;
+}
+h2 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
